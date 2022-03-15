@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import logo from './images/logo.png';
+import AH2022 from './AH2022/AH2022';
 import './App.css';
 
 function App() {
@@ -6,17 +7,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
+        <AH2022/>
       </header>
     </div>
   );
