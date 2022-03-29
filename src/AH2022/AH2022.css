@@ -15,4 +15,7 @@ body {
   text-align: center;
 }
 
-  
+#details {
+  text-align: left;
+  margin: 0px 10px 10px 10px;
+}
