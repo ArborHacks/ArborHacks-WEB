@@ -5,10 +5,12 @@ class AH2022 extends Component {
   render = () => {
     return(
         <div>
-            <h1> Hackathon 2022 </h1> <br/>
-            <h2> Saturday, April 2nd</h2>
+            <span class='hack'>Hackathon 2022</span>
+            <h2>Saturday, April 2nd <br/>
+                Format: Virtual
+            </h2>
             <p>
-                Signup form <a href="https://www.google.com">here</a>
+              Sign-up form <a href="https://forms.gle/oVP61Lu5UJnU3JHm8">here</a>
             </p>
         </div>
     );
