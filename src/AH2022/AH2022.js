@@ -6,10 +6,10 @@ class AH2022 extends Component {
         <div>
             <div id="big header">
             <span class='hack'>Hackathon 2022</span>
-            <h2>Saturday, April 2nd <br/>
-                1pm - 4pm <br/>
+            <h2>Saturday, April 16th <br/>
+                1:00pm - 4:30pm <br/>
                 Format: Virtual <br/>
-                Zoom Link TBD<br/>
+                <a href="https://umich.zoom.us/j/92125460400">Zoom Link Here</a><br/>
             </h2>
             <p>
               Sign-up form <a href="https://forms.gle/oVP61Lu5UJnU3JHm8">here</a>
