@@ -17,8 +17,8 @@ class AH2022 extends Component {
             <p>
               Sign-up form <a href="https://forms.gle/oVP61Lu5UJnU3JHm8">here</a>
             </p>
-            <img src={banner} id="headerBackground"/>
             </div>
+            <img src={banner} id="headerBackground"/>
             <div id="details" class="hack">
                 <h3> Hackathon 2022 Details </h3>
               <p id="eventBlurb">

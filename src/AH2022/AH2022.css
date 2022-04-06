@@ -15,7 +15,9 @@ body {
   text-align: center;
 }
 
-.pageContent{
+#bigHeader {
+  z-index: 5;
+  position: relative;
 }
 
 #headerBackground {
