@@ -15,7 +15,21 @@ body {
   text-align: center;
 }
 
+.pageContent{
+}
+
+#headerBackground {
+  width: 100%;
+  height: auto;
+  margin: -1000px 0px 0px 0px;
+  opacity: 0.2;
+}
+
 #details {
   text-align: left;
-  margin: 0px 10px 10px 10px;
+  padding: 0px 50px 0px 50px;
+}
+
+#eventBlurb {
+  font-size: 14pt;
 }
