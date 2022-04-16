@@ -5,10 +5,10 @@ import './AH2022.css';
 class AH2022 extends Component {
   render = () => {
     return(
-        <div class="pageContent">
+        <div className="pageContent">
             <div id="bigHeader">
             <img src={logo} className="App-logo" alt="logo" /> <br/>
-            <span class="hack">Hackathon 2022</span>
+            <span className="hack">Hackathon 2022</span>
             <h2>Saturday, April 16th <br/>
                 1:00pm - 3:30pm <br/>
                 Format: Virtual <br/>
@@ -19,7 +19,7 @@ class AH2022 extends Component {
             </p>
             </div>
             <img src={banner} id="headerBackground"/>
-            <div id="details" class="hack">
+            <div id="details" className="hack">
                 <h3> Hackathon 2022 Details </h3>
               <p id="eventBlurb">
                 Arborhacks is back! We're doing a virtual hackathon this year, but in the spirit of Arborhacks, we've made some pretty challenging questions! 
@@ -29,11 +29,11 @@ class AH2022 extends Component {
                 The event begins with a briefing over zoom at 1pm. At the end of the briefing, we'll show you the hidden link in the Arborhacks website. Once we provide the necessary information for you to begin, you're free to start! There are no particular restrictions on what resources you're allowed to use, so feel free to look things up if you're stuck! <br/> <br/>
                 The autograder will automatically stop accepting submissions at 3:15pm. Be sure that you submit your code before that time. <br/> <br/>
                 Tips: <br/>
-                <ul>
-                  <li>Make backups of your code! This can be as simple as making a notepad file and copy-pasting everything in, but it's a lifesafer when things go wrong!</li>
-                  <li>Try coming up with your own test cases for your code! It's much faster to test that way than using the autograder</li>
-                </ul>
               </p>
+              <ul>
+                <li>Make backups of your code! This can be as simple as making a notepad file and copy-pasting everything in, but it's a lifesafer when things go wrong!</li>
+                <li>Try coming up with your own test cases for your code! It's much faster to test that way than using the autograder</li>
+              </ul>
             </div> 
         </div>
     );
