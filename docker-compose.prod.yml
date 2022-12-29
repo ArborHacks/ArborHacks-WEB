@@ -10,6 +10,7 @@ services:
     volumes:
       - './:/app'
       - '/app/node_modules'
+      - '/var/www/html:/app/build'
     ports:
       - '3001:3001'
-    command: 'npm start'
+    command: 'npm run build'
